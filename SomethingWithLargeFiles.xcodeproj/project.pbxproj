@@ -147,7 +147,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "dd if=/dev/urandom of=file.txt bs=1048576 count=10000\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
