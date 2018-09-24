@@ -147,7 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "for i in `seq 1 50`;\ndo\ncurl -Lo \"video-$1.mp4\" https://github.com/iOSTestApps/LargeFile/raw/master/3458%20Point%20Grey%20Road%20-%20The%20Ultimate%20Bachelor%20Pad.mp4\ndone\n";
+			shellScript = "dd if=/dev/urandom of=file.txt bs=1048576 count=60000\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
